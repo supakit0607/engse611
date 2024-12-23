@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Lab</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .container {
+            display: flex;
+            height: 100vh;
+        }
+
+        .sidebar {
+            width: 20%;
+            background-color: #f4f4f4;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .sidebar ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .sidebar ul li {
+            margin-bottom: 10px;
+        }
+
+        .sidebar ul li a {
+            text-decoration: none;
+            color: #000;
+        }
+
+        .content {
+            width: 80%;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .header {
+            background-color: #007bff;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .image-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #f4f4f4;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .footer a {
+            text-decoration: none;
+            color: #007bff;
+            margin: 0 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <ul>
+                <li><a href="http://127.0.0.1:5500/lab3/part3/3.1.html/About.html">About Me</a></li>
+                <li><a href="http://127.0.0.1:5500/lab3/part3/3.1.html/mycat.html">My Cat</a></li>
+                <li><a href="http://127.0.0.1:5500/lab3/part3/3.1.html/hobby.html">My Hobby</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <div class="header">
+                <h1>Welcome to My Lab</h1>
+            </div>
+            <div class="image-container">
+                <img src="https://i.pinimg.com/736x/a7/d8/46/a7d846e17b1246b78f2ec994f662fe0d.jpg"alt="photot" width=25%>
+            </div>
+            <p>This is the main content of the page. Click on the menu items to navigate to different sections.</p>
+        </div>
+    </div>
+    <div class="footer">
+        <p>Contact me: <a href="mailto:example@example.com">example@example.com</a></p>
+        <p>Follow me on: 
+            <a href="#">Twitter</a> |
+            <a href="#">Facebook</a> |
+            <a href="#">LinkedIn</a>
+        </p>
+      
+    </div>
+</body>
+</html>
