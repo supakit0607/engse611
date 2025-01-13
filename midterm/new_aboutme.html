@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me Template</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+
+        .header {
+            background-color: rgb(245, 172, 15);
+            padding: 20px;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        .middle-section {
+            display: flex;
+            margin-bottom: 10px;
+        }
+
+        .middle-box {
+            background-color: rgb(255, 242, 204);
+            flex: 1;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .middle-box:first-child {
+            margin-right: 5px;
+        }
+
+        .bottom-section {
+            display: flex;
+            margin-bottom: 10px;
+        }
+
+        .bottom-box {
+            background-color: rgb(213, 232, 212);
+            flex: 1;
+            padding: 20px;
+            text-align: center;
+            margin-right: 5px;
+        }
+
+        .bottom-box:last-child {
+            margin-right: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h2>About Me</h2>
+    </div>
+
+    <div class="middle-section">
+        <div class="middle-box">
+            <h2>My Class</h2>
+        </div>
+        <div class="middle-box">
+            <h2>My Favorite</h2>
+        </div>
+    </div>
+
+    <div class="bottom-section">
+        <div class="bottom-box">
+            <h2>My Moods<br>is Happy</h2>
+        </div>
+        <div class="bottom-box">
+            <h2>My Moods<br>is Sad</h2>
+        </div>
+        <div class="bottom-box">
+            <h2>Fun Facts About My Neighbors</h2>
+        </div>
+    </div>
+</body>
+</html>

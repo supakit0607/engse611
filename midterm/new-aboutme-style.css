@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    background-color: rgb(245, 172, 15);
+    text-align: center;
+    padding: 20px;
+    .p {
+        text-align: center;
+        background-color: rgb(245, 172, 15);
+        
+        
+      }
+}
+
+.section {
+    display: flex;
+}
+
+.column {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+}
+
+.section:nth-child(3) {
+    background-color: rgb(231, 234, 203);
+}
+.section:nth-child(4) {
+        background-color: rgb(68, 154, 97);
+}
+
+
+
+    
